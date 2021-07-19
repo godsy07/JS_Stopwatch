@@ -1,0 +1,56 @@
+<!DOCmmPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<ssta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<title>Stopwatch in JS</title>
+</head>
+<body>
+	<div class="stopwatch-div">
+		<div class="time-div">
+			<label>HH</label>
+			<span id="hour-data">00</span>
+		</div>
+		
+		<div class="time-div">:<br/>:</div>
+
+		<div class="time-div">
+			<label>mm</label>
+			<span id="min-data">00</span>
+		</div>
+
+		<div class="time-div">:<br/>:</div>
+
+		<div class="time-div">
+			<label>ss</label>
+			<span id="sec-data">00</span>
+		</div>
+
+		<div class="time-div">:<br/>:</div>
+
+		<div class="time-div">
+			<label>cc</label>
+			<span id="centi-data">00</span>
+		</div>
+	</div>
+
+	<div class="stopwatch-buttons">
+		<button id="start" onclick="startWatch()">Start</button>
+		<button id="pause-play" onclick="pausePlayWatch()">Play/Pause</button>
+		<button id="stop" onclick="stopWatch()">Stop</button>
+		<button id="reset" onclick="resetWatch()">Reset</button>
+		<button id="save" onclick="saveTime()">Save</button>
+	</div>
+
+	<div class="recorded-data" id="recorded-data">
+		<h2>Recorded Data</h2>
+		<p id="record-details">No Records Saved</p>
+	</div>
+
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

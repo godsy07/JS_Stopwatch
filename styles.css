@@ -1,0 +1,50 @@
+.stopwatch-div {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.time-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 20px 3px;
+}
+
+.stopwatch-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.stopwatch-buttons button {
+  margin: 0 5px;
+  height: 40px;
+  min-width: 70px;
+  background: lightblue;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.stopwatch-buttons button:hover {
+  font-size: 14px;
+  background: rgb(180, 180, 250);
+}
+
+.recorded-data {
+  background-color: rgb(235, 232, 232);
+  width: 420px;
+  margin: auto;
+  min-height: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+.recorded-data h2 {
+  padding-top: 5px;
+}
+#record-details {
+  white-space: pre-wrap;
+  padding-bottom: 20px;
+  line-height: 1.5em;
+}
